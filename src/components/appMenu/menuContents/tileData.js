@@ -9,6 +9,7 @@ import EditIcon from '@material-ui/icons/BorderColor';
 import VideoIcon from '@material-ui/icons/Videocam';
 import MoneyIcon from '@material-ui/icons/AttachMoney';
 import RestaurantIcon from '@material-ui/icons/RestaurantMenu';
+import NumberedIcon from '@material-ui/icons/FormatListNumbered';
 import Divider from '@material-ui/core/Divider';
 import PostAddIcon from '@material-ui/icons/PostAdd';
 import { Link } from 'react-router-dom';
@@ -32,7 +33,15 @@ export const menuItems = (
         <ListItemText primary="Recipes & Menu" />
       </ListItem>
     </Link>
-    <Link to={'/history'}>
+    <Link to={'/cart'}>
+      <ListItem button>
+        <ListItemIcon>
+          <NumberedIcon />
+        </ListItemIcon>
+        <ListItemText primary="Todo List" />
+      </ListItem>
+    </Link>
+    <Link to={'/pricing'}>
       <ListItem button>
         <ListItemIcon>
           <MoneyIcon />
