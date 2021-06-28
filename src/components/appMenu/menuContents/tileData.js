@@ -33,12 +33,12 @@ export const menuItems = (
         <ListItemText primary="Recipes & Menu" />
       </ListItem>
     </Link>
-    <Link to={'/cart'}>
+    <Link to={'/shopping'}>
       <ListItem button>
         <ListItemIcon>
           <NumberedIcon />
         </ListItemIcon>
-        <ListItemText primary="Todo List" />
+        <ListItemText primary="Shopping List" />
       </ListItem>
     </Link>
     <Link to={'/pricing'}>
@@ -66,12 +66,12 @@ export const menuItems = (
         <ListItemText primary="Edit/Delete/Upload" />
       </ListItem>
     </Link>
-    <Link to={'/video'}>
+    <Link to={'/videos'}>
       <ListItem button>
         <ListItemIcon>
           <VideoIcon />
         </ListItemIcon>
-        <ListItemText primary="Video" />
+        <ListItemText primary="Videos" />
       </ListItem>
     </Link>
     <Divider />

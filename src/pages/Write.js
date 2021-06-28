@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Add() {
+function Write() {
   return (
-    <div className='add'>
+    <div className='write'>
       <h1>Add Recipes</h1>
     </div>
   );
 }
 
-export default Add;
+export default Write;
