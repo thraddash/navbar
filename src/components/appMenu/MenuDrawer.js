@@ -61,9 +61,9 @@ const styles = theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    width: theme.spacing.unit * 7,
+    width: theme.spacing(7),
     [theme.breakpoints.up('sm')]: {
-      width: theme.spacing.unit * 9,
+      width: theme.spacing(9),
     },
   },
   toolbar: {
@@ -79,7 +79,7 @@ const styles = theme => ({
     marginTop: '64px',
     overflowY: 'auto',
     backgroundColor: theme.palette.background.default,
-    padding: `9px ${theme.spacing.unit * 4}px`
+    padding: `9px ${theme.spacing(4)}px`
   },
 });
 
