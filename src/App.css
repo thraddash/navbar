@@ -1,18 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
 
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
+  padding: 20px 20px 100px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
-.home,
-.reports,
-.products {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.posts {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.post {
+  /* border-bottom: 1px solid #ccc; */
+  padding: 10px 20px 20px 20px;
+}
+
+.post:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+.btn-download {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ccc;
+  color: #555;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 1px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+p {
+  color: #666;
+}
+.thumbnail {
+  height: 150px;
+  width: 150px; 
+}
+a { 
+  text-decoration: none; 
+  color: #4183c4;
 }
